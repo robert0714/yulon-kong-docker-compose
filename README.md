@@ -1,3 +1,15 @@
+# 2023
+https://fusionauth.io/docs/v1/tech/developer-guide/api-gateways/kong-gateway
+## Get Kong 
+* https://docs.konghq.com/gateway/3.4.x/get-started/
+```bash
+curl -Ls https://get.konghq.com/quickstart | bash
+```
+### Access Kong Manager - GUI
+While the rest of this guide demonstrates configuring Kong Gateway using the Admin API, you can also use Kong Manager to manage your Services, Routes, Plugins, and more. To access Kong Manager, go to the following URL: http://localhost:8002
+## Services and Routes 
+* https://docs.konghq.com/gateway/3.4.x/get-started/services-and-routes/
+
 # Kong in Docker Compose
 
 This is the official Docker Compose template for [Kong][kong-site-url].
